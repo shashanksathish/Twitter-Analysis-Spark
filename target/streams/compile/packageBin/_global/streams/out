@@ -1,0 +1,17 @@
+[debug] Packaging E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\twitter-analysis_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Metric$.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\Metric$.class
+[debug] 	Metric.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\Metric.class
+[debug] 	TwitterAnalysis$$anonfun$1.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\TwitterAnalysis$$anonfun$1.class
+[debug] 	TwitterAnalysis$$typecreator4$1.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\TwitterAnalysis$$typecreator4$1.class
+[debug] 	TwitterAnalysis$$typecreator9$1.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\TwitterAnalysis$$typecreator9$1.class
+[debug] 	TwitterAnalysis$.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\TwitterAnalysis$.class
+[debug] 	TwitterAnalysis.class
+[debug] 	  E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes\TwitterAnalysis.class
+[debug] Done packaging.

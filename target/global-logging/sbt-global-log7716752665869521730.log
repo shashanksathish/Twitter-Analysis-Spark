@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\shash\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\shash\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 13.0.2)
+[debug]       Load.loadUnit: plugins took 85.9435ms
+[debug]       Load.loadUnit: defsScala took 0.2931ms
+[debug] [Loading] Scanning directory C:\Users\shash\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\shash\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.1593 ms
+[debug]           Load.resolveProject(global-plugins) took 39.6086ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\shash\.sbt\1.0\plugins, plugins: List(<none>))) took 82.8055ms
+[debug] [Loading] Done in C:\Users\shash\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 103.05ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2156ms
+[debug]     Load.loadUnit(file:/C:/Users/shash/.sbt/1.0/plugins/, ...) took 198.142ms
+[debug]   Load.apply: load took 357.2936ms
+[debug]   Load.apply: resolveProjects took 9.4385ms
+[debug]   Load.apply: finalTransforms took 63.4358ms
+[debug]   Load.apply: config.delegates took 9.2778ms
+[debug]   Load.apply: Def.make(settings)... took 685.8628ms
+[debug]   Load.apply: structureIndex took 92.2645ms
+[debug]   Load.apply: mkStreams took 1.43ms
+[info] loading global plugins from C:\Users\shash\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2513.1223ms
+[debug]           Load.loadUnit: plugins took 24.0553ms
+[debug]           Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\project
+[debug]             Load.loadUnit: mkEval took 7.4907ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4104 ms
+[info] loading settings for project twitter-analysis-build from idea.sbt ...
+[debug]               Load.resolveProject(twitter-analysis-build) took 2.701ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id twitter-analysis-build, base: E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\project, plugins: List(<none>))) took 4.5845ms
+[debug] [Loading] Done in E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\project, returning: (twitter-analysis-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2031.5183ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.2552ms
+[debug]         Load.loadUnit(file:/E:/MS%20CE/Subject/Spring%202021/CS%206350/Assign-2/Assign_2/Twitter-Analysis/project/, ...) took 2060.8765ms
+[debug]       Load.apply: load took 2062.0329ms
+[debug]       Load.apply: resolveProjects took 0.1288ms
+[debug]       Load.apply: finalTransforms took 8.6209ms
+[debug]       Load.apply: config.delegates took 0.3719ms
+[debug]       Load.apply: Def.make(settings)... took 94.8416ms
+[debug]       Load.apply: structureIndex took 25.1519ms
+[debug]       Load.apply: mkStreams took 0.0021ms
+[info] loading project definition from E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3236.4069ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis
+[debug]       Load.loadUnit: mkEval took 0.2041ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.2642 ms
+[info] loading settings for project twitter-analysis from build.sbt ...
+[debug]         Load.resolveProject(twitter-analysis) took 30.2227ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id twitter-analysis, base: E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis, plugins: List(<none>))) took 33.7735ms
+[debug] [Loading] Done in E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis, returning: (twitter-analysis)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1321.1306ms
+[debug]     Load.loadUnit: cleanEvalClasses took 26.0174ms
+[debug]   Load.loadUnit(file:/E:/MS%20CE/Subject/Spring%202021/CS%206350/Assign-2/Assign_2/Twitter-Analysis/, ...) took 4584.3854ms
+[debug] Load.apply: load took 4585.8806ms
+[debug] Load.apply: resolveProjects took 0.0937ms
+[debug] Load.apply: finalTransforms took 20.0056ms
+[debug] Load.apply: config.delegates took 0.3497ms
+[debug] Load.apply: Def.make(settings)... took 68.1824ms
+[debug] Load.apply: structureIndex took 21.6819ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Twitter-Analysis (in build file:/E:/MS%20CE/Subject/Spring%202021/CS%206350/Assign-2/Assign_2/Twitter-Analysis/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 54682 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 54682, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Twitter-Analysis (in build file:/E:/MS%20CE/Subject/Spring%202021/CS%206350/Assign-2/Assign_2/Twitter-Analysis/)
+[debug] > Exec(idea-shell, None, None)

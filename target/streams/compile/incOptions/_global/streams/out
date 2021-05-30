@@ -1,0 +1,12 @@
+[debug] Created transactional ClassFileManager with tempDir = E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	TwitterAnalysis$$typecreator4$1.class
+[debug] 	TwitterAnalysis.class
+[debug] 	Metric$.class
+[debug] 	TwitterAnalysis$.class
+[debug] 	Metric.class
+[debug] 	TwitterAnalysis$$anonfun$1.class
+[debug] 	TwitterAnalysis$$typecreator9$1.class
+[debug] Removing the temporary directory used for backing up class files: E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes.bak

@@ -1,0 +1,9 @@
+[debug] > Exec({file:/E:/MS%20CE/Subject/Spring%202021/CS%206350/Assign-2/Assign_2/Twitter-Analysis/}twitter-analysis/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to E:\MS CE\Subject\Spring 2021\CS 6350\Assign-2\Assign_2\Twitter-Analysis\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 7 s, completed Apr 10, 2021, 6:09:07 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
